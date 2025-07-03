@@ -24,12 +24,8 @@ This project analyzes e-commerce sales data to uncover trends in product perform
 
 ---
 
-## File Structure
-├── sql_scripts/               # SQL queries used in the analysis
-│   ├── 01_create_table.sql
-│   ├── 02_top_10_products.sql
-│   ├── 03_monthly_revenue.sql
-│   ├── 04_revenue_by_country.sql
-│   └── 05_avg_order_value.sql
-├── ecommerce_dashboard.xlsx   # Excel workbook with charts and dashboard
-└── README.md                  # Project overview and documentation
+## Dataset Source
+
+This project uses the [Online Retail Dataset (UCI)](https://archive.ics.uci.edu/ml/datasets/online+retail), which contains transactional data from a UK-based online retailer between 2010 and 2011.
+
+The dataset is publicly available and was downloaded in `.xlsx` format.
